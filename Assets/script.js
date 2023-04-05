@@ -1,3 +1,18 @@
+//Sets the date
+$(document).ready(function() {
+  var currentDate = new Date();
+  var day = currentDate.getDate();
+  var month = currentDate.getMonth() + 1;
+  var year = currentDate.getFullYear();
+  var formattedDate = month + "/" + day + "/" + year;
+
+  $("#current-date").text(formattedDate);
+});
+
+
+
+
+
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
