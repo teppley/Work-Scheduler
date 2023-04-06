@@ -3,6 +3,19 @@ body {
   font-size: 16px;
 }
 
+h1{
+  font-family: 'Lora', serif;
+  text-decoration:underline;
+}
+
+.lead{
+  font-family: 'Rajdhani', sans-serif;
+}
+
+header{
+  background-color: #ff69618f;
+}
+
 textarea {
   background: transparent;
   border: none;
